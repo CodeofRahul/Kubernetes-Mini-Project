@@ -18,9 +18,9 @@ In your GitHub Actions + AWS project, Kubernetes can replace or complement the d
 
 - Add a step in your CI/CD pipeline to:
 
--- Use the `kubectl` CLI or GitHub's Kubernetes Action to apply a `Deployment` manifest referencing the latest image from ECR.
+  - Use the `kubectl` CLI or GitHub's Kubernetes Action to apply a `Deployment` manifest referencing the latest image from ECR.
 
--- Example:
+  - Example:
 
 ```
 - name: Deploy to Kubernetes
@@ -98,9 +98,9 @@ Most companies prefer this approach because it reduces operational overhead.
 - **How:**
 
 - Use managed Kubernetes services like:
--- Amazon EKS (Elastic Kubernetes Service)
--- Azure AKS (Azure Kubernetes Service)
--- Google GKE (Google Kubernetes Engine)
+  - Amazon EKS (Elastic Kubernetes Service)
+  - Azure AKS (Azure Kubernetes Service)
+  - Google GKE (Google Kubernetes Engine)
 
 - **Benefits:**
 
@@ -132,18 +132,18 @@ Managed Kubernetes services make deploying and managing Kubernetes clusters easi
 
 - **AWS (EKS):**
 
--- Integrates with IAM for secure role-based access.
--- Supports CloudWatch for logs and metrics.
+  - Integrates with IAM for secure role-based access.
+  - Supports CloudWatch for logs and metrics.
 
 - **Azure (AKS):**
 
--- Integrates with Azure Monitor for performance insights.
--- Azure AD for secure identity management.
+  - Integrates with Azure Monitor for performance insights.
+  - Azure AD for secure identity management.
 
 - **Google (GKE):**
 
--- Tight integration with Google Cloud's operations suite (logging, monitoring).
--- Pre-configured auto-scaling for workloads.**
+  - Tight integration with Google Cloud's operations suite (logging, monitoring).
+  - Pre-configured auto-scaling for workloads.**
 
 **4. Scaling:**
 
@@ -500,8 +500,8 @@ kubectl get service
 
 1. Use Postman to run performance tests:
 
--- Go to Collection > Runs > Performance > Run Performance Test.
--- Example: Fixed configuration with 10 users for 1 minute.
+  - Go to Collection > Runs > Performance > Run Performance Test.
+  - Example: Fixed configuration with 10 users for 1 minute.
 
 #### 3. Stop Minikube
 
